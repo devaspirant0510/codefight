@@ -18,7 +18,7 @@ def isLucky(n):
         return False
 #=================================================
 # case :2 
-  def isLucky(n):
+def isLucky(n):
     s = str(n)
     pivot = len(s)//2
     left, right = s[:pivot], s[pivot:] # 중앙을 기준으로 왼쪽과 오른쪽으로 슬라이싱
