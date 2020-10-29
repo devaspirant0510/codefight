@@ -8,7 +8,7 @@ def areSimilar(a, b):
     if a==b: # a와 b가 같을시 바로 리턴
         return True
     for i in range(len(a)):# 배열의 크기만큼 for 문
-        if a[i]!=b[i]: ai번째의 엘리먼트와 bi의 엘리먼트가 서로 다를때 
+        if a[i]!=b[i]: # ai번째의 엘리먼트와 bi의 엘리먼트가 서로 다를때 
             dif_a.append(a[i]) # 각각의 엘리먼트를  리스트에 추가
             dif_b.append(b[i])
         
